@@ -16,4 +16,3 @@ mineReadFile('./resource/content.txt').then(value => {
 },reason => {
     console.log(reason)
 })
- 

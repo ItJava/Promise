@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise 封装 AJAX</title>
+    <link crossorigin='anonymous' href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h2 class="page-header">Promise 封装 AJAX 操作</h2>
+    <button class="btn btn-primary" id="btn">点击发送 AJAX</button>
+</div>
+<script>
+    //接口地址 https://api.apiopen.top/getJoke
+    //获取元素对象
+    const btn = document.querySelector('#btn');
+
+    /*
+      封装一个函数 sendAJAX 发送GET AJAX请求
+      参数 URL
+      返回结果 Promise 对象
+     */
+    function  sendAJAX(url){
+        return new Promise(((resolve, reject) => {
+            const  xhr=new XMLHttpRequest()
+            xhr.responseType='json'
+            xhr.open('GET',url)
+            xhr.send()
+            //处理结果
+            xhr.onreadystatechange=function () {
+               if(xhr.readyState===4){
+                   //判断成功
+                    if(xhr.status>=200&&xhr.status<300){
+                        //成功的结果
+                        resolve(xhr.response)
+                    }else {
+                        reject(xhr.status)
+                    }
+               }
+            }
+        }))
+    }
+
+    sendAJAX('https://api.apiopen.top/getJoke').then(value => {
+
+        console.log(value)
+
+    },reason => {
+        console.log(reason)
+
+    })
+
+
+
+
+
+</script>
+
+</body>
+</html>

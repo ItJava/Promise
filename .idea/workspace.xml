@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ffdd6fac-0719-4728-8daf-6b8d9df7ea22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Promise基本使用/5_util_promisify练习.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_Promise基本使用/5_util_promisify练习.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <updated>1618471644714</updated>
       <workItem from="1618471646412" duration="13000" />
       <workItem from="1618471738857" duration="4625000" />
-      <workItem from="1618477635712" duration="8688000" />
+      <workItem from="1618477635712" duration="10153000" />
     </task>
     <servers />
   </component>
