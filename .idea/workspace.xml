@@ -41,9 +41,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.9.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1_Promise基本使用" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\front\Promise\1_Promise基本使用" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +61,7 @@
       <updated>1618471644714</updated>
       <workItem from="1618471646412" duration="13000" />
       <workItem from="1618471738857" duration="4625000" />
-      <workItem from="1618477635712" duration="7923000" />
+      <workItem from="1618477635712" duration="8688000" />
     </task>
     <servers />
   </component>
