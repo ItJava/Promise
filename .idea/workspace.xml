@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffdd6fac-0719-4728-8daf-6b8d9df7ea22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Promise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Promise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_Promise基本使用/5_util_promisify练习.js" beforeDir="false" afterPath="$PROJECT_DIR$/1_Promise基本使用/5_util_promisify练习.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,15 +41,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.9.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1_Promise基本使用" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.57" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="E:\project\front\Promise\1_Promise基本使用" />
     </key>
   </component>
@@ -63,6 +65,8 @@
       <workItem from="1618471646412" duration="13000" />
       <workItem from="1618471738857" duration="4625000" />
       <workItem from="1618477635712" duration="10153000" />
+      <workItem from="1618499328380" duration="2051000" />
+      <workItem from="1618534690883" duration="279000" />
     </task>
     <servers />
   </component>
